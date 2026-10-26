@@ -1,0 +1,75 @@
+Mini-Gedankenprotokoll. Allgemein machbare aber knapp bemessene Klausur.
+
+Aufgabe 1 
+Multiple Choice (Falls eine falsche Antwort angekreuzt ist oder nicht alle richtigen gibt es keinen Ounkt)
+Aufgabe 2
+Allgemeine Fragen zu Generics, Classes, Konstruktoren aber auch mini code snippets bei denen mal fehler erklären oder den output sagen soll. Hier wird auch zu großen Teilen C abgefragt.
+
+In beiden Aufgaben kamen teils fragen aus den vorherigen Klausuren dran.
+
+Aufgabe 3
+Java Teil
+Gegeben sei UML Diagram (auch mini guide dabei wie man ein UML diagram liest diesmal zusätzlich zur Documentation)
+
+a) Klasse aus dem UML diagram muss mit abstract functions etc. implementiert werden.
+(Es geht hier um Shapes und davon abhängig muss hier Circle implementiert werden)
+
+b) Point2D muss Comparable gemacht werden (damit werden die "positions" implementiert.
+Point 2D hat einfach ein int x und y und das compare soll nach x zunächst danach y aufsteigend comparen.
+
+c) Danach folgt eine Klasse Canvas zu implementieren:
+Die Grundrisse sind gegeben, man soll ordentlich die Map wählen (die an sich sortiert ist).
+
+Danach sind ein paar Funktionen zu implmentieren, welche stream() nutzen und am ende eine Test.class, inder alles initialisiert wird, man Shapes hinzufügt (hier siehe nochmal UML diagram was da in Frage kommt) und die funktionen, die man implementiert hat nochmal nutzt.
+
+Alles in allem sehr knapp bemessen wenn man die Theorieaufgaben in der Doku doublechecken muss. Manche davon haben das doublechecken leider nötig.
+Hätte Empfohlen zuerst den Javateil zu machen und am Ende das große geblättere anzufangen.
+Bild
+Keanou — 07.08.2025 12:30
+Prog 2 Klausur
+
+Intel of  SS2024
+
+1️⃣Multiple choices from old exams
+
+2️⃣Classes for prog2:
+SmartDeviceManager (Map with int,Floor)
+Floor (Set of Devices)
+abstract SmartDevice
+Sensor extends SmartDevice
+Light extends SmartDevice
+
+All of them with simple classes (getter/setter/constructor/1-3 variables / 1-5 methods about streams)
+
+3️⃣And C part was recursive func to get minNumber from an array with:
+int* input (array)
+int index
+int* minNumber
+
+
+Intel of WS2024/25
+
+1️⃣
+Find error in code(Anonymous Classes ( Innerclass))
+Definition of functional interface (you can find it in the paper he gave you)
+Some of multiple choices from old exam
+Pointer
+
+2️⃣Classes
+Item
+abstract Weapon
+Sword extend Weapon
+Shield extend Weapon
+Bow extend Weapon
+
+Some methods about damage of individual weapons; for bow, method about reload arrows. I don’t remember details anymore. 
+
+❗️❗️❗️
+Make sure you understand UB 7 and 8 (SS 24, the 2 UB which NOT about Codeopolis, same for the UB in this year) including Zusatzaufgaben, the structure is very similar to exam.  Please train yourself by writing down with hand.
+ 
+
+3️⃣C ist similar like SS24. 
+bool isPalindrome()
+also 3 arguments
+Either iterative or recursive func with pointer
+Pointer pingpong
